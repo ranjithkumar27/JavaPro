@@ -44,6 +44,22 @@ public class Pro {
 		a = a - b;
 		
 		System.out.println("After swapping two numbers A is " + a + " B is " + b);
+		
+		//Three program sum of odd numbers
+		
+		
+		int values = 100;
+		int count = 0;//4
+		for(int i=1;i<values;i++) {//5
+			if(i%2!=0) {
+				count=count+i;//4+5=9
+				
+			}
+			
+			
+		}
+		
+		System.out.println("Sum of odd numbers is "+count);
 
 	}
 
